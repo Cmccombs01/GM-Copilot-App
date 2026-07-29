@@ -1,73 +1,71 @@
-# 🐉 GM Co-Pilot™ | The Universal TTRPG Bridge
+# 🐉 GM-Copilot Studios™ | Deterministic VTT Ingestion Engine
 
-**Status:** 🚀 Operation Marketplace (Target: May 30, 2026)  
-**Performance:** ⚡ 0.82s p99 Latency (Redis Edge-Cache)  
-**Ecosystem:** 🛡️ 171+ Active Entities Tracked in the Nexus  
-
-[![Read The Amnesty Protocol](https://img.shields.io/badge/BLUEPRINT-THE_AMNESTY_PROTOCOL-00FF00?style=for-the-badge)](https://github.com/Cmccombs01/GM-Copilot-Cloud/blob/main/THE_AMNESTY_PROTOCOL.md)
-[![Experience the Pulse](https://img.shields.io/badge/LIVE_APP-ENTER_THE_NEXUS-blue?style=for-the-badge)](https://dm-copilot-cloud.onrender.com/)
+*Status:* 🚀 Active Enterprise Pipeline (v17.9)  
+*Performance:* ⚡ Sub-Second Verification & Parsing (Upstash Redis FinOps Cache)  
+*Ecosystem:* 🛡️ Azure-Native Stateless VNet Ingestion Architecture  
 
 ---
 
-## 🏛️ The Amnesty Protocol: Phase 6 Secured
-The TTRPG industry is built on legacy lag and manual labor. We are architecting the bridge. **GM Co-Pilot™** is a deterministic, edge-cached AI Operating System that collapses the 20-hour onboarding barrier into a **30-second interactive surge.**
+## 🏛️ The Masterwork Engine™: Zero-Hallucination PDF Ingestion
 
-### ⚔️ The Phase 6 Triple Strike:
-1.  **The Multiverse Pulse:** A live, high-velocity telemetry ticker broadcasting every character forge and campaign listing in real-time.
-2.  **The Hall of Heroes:** A persistent, global chronicle recording the legacy of the **171+ entities** currently active in the Nexus.
-3.  **The Chronicle of Fate:** Asynchronous global event logging that ensures the world breathes even when players are offline.
+Manual Virtual Tabletop (VTT) conversion costs TTRPG publishers 40+ hours per rulebook in copy-pasting, stat-block reformatting, and trait tagging. 
 
----
+Generic AI chatbots and LLM wrappers fail because they **guess math** and **collapse multi-column layouts**. 
 
-## 🚀 The Challenge: "Try to Break the Multiverse"
-We have officially transitioned to **S-Corp status** and hardened the infrastructure. Now, we need the community to find the friction.
-
-- **Dungeon Masters:** Use the [Matchmaker Engine](https://dm-copilot-cloud.onrender.com/) to link with high-intent players.
-- **Players:** Run the [Seed of Fate](https://dm-copilot-cloud.onrender.com/) and forge a 2024 RAW character in under 30 seconds.
-- **Developers:** Audit the [0.82s p99 Latency Engine](https://github.com/Cmccombs01/GM-Copilot-App/blob/main/app.py).
-
-**Challenge Issued:** If you can crash the edge-cache or out-pace the deterministic RAG pipeline, [open an issue](https://github.com/Cmccombs01/GM-Copilot-App/issues).
+**GM-Copilot Studios** provides a deterministic, B2B-grade ingestion pipeline. By combining spatial computer vision with formal logic verification, we convert dense campaign PDFs directly into 100% verified, deployable **Foundry VTT** and **Roll20** JSON payloads.
 
 ---
 
-## 🛠️ The Tech Stack (v26.3)
-* **The Brain:** Llama-3.3 via Groq (Deterministic RAG)
-* **The Shield:** Globally distributed Redis Edge-Cache (Request Coalescing)
-* **The Vault:** Firestore NoSQL + Qdrant Vector Archive
-* **The Bridge:** REST API Webhooks & Trojan Horse Iframe State Management
-* **The Spatial Frontier:** Headless Python backend for WebXR/A-Frame VR
+## ⚔️ The B2B Ingestion Architecture: Three Core Pillars
+
+1. **Spatial Layout Isolation (OpenCV):** Maps document bounding boxes, multi-column flows, sidebars, and grid topologies before text extraction occurs, preventing text-wrapping bugs.
+2. **Formal Logic Verification (Pydantic & Lean 4):** Enforces strict mathematical invariants on stat blocks, action economies, and spell matrices. The pipeline traps errors before delivery—guaranteeing **zero hallucinations**.
+3. **Stateless FinOps Security:** Built natively on Azure App Service with Upstash Redis zero-cost caching. All customer uploads route strictly through temporary in-memory processing and are immediately purged. **Zero IP retention.**
 
 ---
 
-## 📂 Repository Architecture Note
-*This repository is currently transitioning to a modular architecture. Core logic is being moved to the `/core` directory to support S-Corp horizontal scaling and sub-second latency targets.*
+## 🚀 Enterprise Onboarding & Audit Tiers
+
+We eliminate the friction of onboarding your backlist or upcoming crowdfunding campaign:
+
+- **Indie Publishers:** Book a [$99 5-Page PDF Structural Audit](https://cmccombs01.github.io/GM-Copilot-Studios.github.io/) to get a sample Foundry/Roll20 JSON export and layout vulnerability report.
+- **Mid-Sized Studios:** Subscribe to the **Publisher Pass ($299/mo)** for ongoing monthly conversion volume (up to 250 pages) with priority ingestion queuing.
+- **Enterprise Partners:** Access our **Enterprise Studio Tier ($999/mo)** for custom Lean 4 verification rules, direct Azure VNet deployment, and full catalog digitization.
 
 ---
 
-## 🛡️ Ethical AI & Privacy Guardrails
+## 🛠️ The Enterprise Stack (v17.9)
 
-GM Co-Pilot Studios operates under a **Privacy by Design** framework. The platform architecture prioritizes data sovereignty and algorithmic transparency to ensure high-stakes reliability across both gaming and enterprise sectors.
-
-### Data Sovereignty (Zero-Storage Policy)
-The GM Co-Pilot infrastructure is stateless. **Personal Identifiable Information (PII) is not stored.** Logic is processed in real-time; once a tactical alert or output is generated, raw behavioral data is purged from active memory.
-
-### Edge-First Processing
-To mitigate data breach risks, the Sensing Engine is architected for local processing. By executing logic on the "edge," sensitive movement and routine data remain on the local network rather than a centralized corporate server.
-
-### Deterministic Accuracy vs. Probabilistic Bias
-Generic AI models often rely on broad social patterns, which can introduce algorithmic bias. GM Co-Pilot utilizes **Deterministic Logic**, triggering only based on the specific mathematical baseline of a unique individual or environment. This eliminates the "hallucination" risks associated with standard probabilistic models.
-
-### Informed Consent
-The system remains a **Human-in-the-Loop** tool. Users and legal guardians maintain absolute control over sensing activity and data reporting.
-
+- **The Vision Engine:** OpenCV + Spatial Bounding Box Layout Analysis
+- **The Logic Gate:** Pydantic Schemas + Lean 4 Formal Verification
+- **The Compute Shield:** Azure App Service + Azure AI Foundry DeepSeek Routing
+- **The Cache & Vault:** Upstash Redis Zero-Cost FinOps Cache + Qdrant Vector Engine
+- **The Payload:** Verified Foundry VTT & Roll20 Native JSON Exports
 
 ---
 
+## 📂 Repository & Pipeline Architecture Note
 
+*This repository contains the stateless core engine and API interface for GM-Copilot Studios B2B ingestion modules. Production pipelines execute inside secured, air-gapped Azure Virtual Networks.*
 
-## 📫 Connections & Intelligence
-* **Architecture & News:** [Connect on LinkedIn](https://www.linkedin.com/in/caleb-mccombs-850335237/)
-* **Direct Inquiry:** [calebmccombs49@gmail.com](mailto:calebmccombs49@gmail.com)
-* **Live Metrics:** [GM Co-Pilot Executive Dashboard](https://dm-copilot-cloud.onrender.com/)
+---
 
-*"We aren't looking to get hired. We are building the infrastructure the giants will be forced to run on by 2027."*
+## 🛡️ Data Sovereignty & Enterprise Guardrails
+
+GM-Copilot Studios operates under a strict **Zero-Trust, Zero-Storage** framework:
+
+### Zero Intellectual Property Retention
+All raw customer PDF uploads and intermediate text extractions are processed purely in-memory. Once payload delivery is finalized, all temporary buffer assets are purged under strict FinOps protocols.
+
+### Deterministic Accuracy over Probabilistic AI
+Standard generative AI models guess missing text. Our pipeline relies on **Deterministic Verification**—validating data solely against formal mathematical rules and explicit rulebook invariants.
+
+---
+
+## 📫 B2B Architecture & Contact
+
+- **Architecture Portal & Demos:** [GM-Copilot Studios Official Site](https://cmccombs01.github.io/GM-Copilot-Studios.github.io/)
+- **LinkedIn Leadership:** [Caleb McCombs | Lead Architect](https://www.linkedin.com/in/caleb-mccombs-850335237/)
+- **Direct Business Inquiries:** [caleb@delversgrimoire.com](mailto:caleb@delversgrimoire.com)
+
+*"We don't build generative chatbots. We build deterministic infrastructure that powers the future of digital tabletop publishing."*
