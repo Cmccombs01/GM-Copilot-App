@@ -12,25 +12,29 @@ Manual Virtual Tabletop (VTT) conversion costs TTRPG publishers 40+ hours per ru
 
 Generic AI chatbots and LLM wrappers fail because they **guess math** and **collapse multi-column layouts**. 
 
-**GM-Copilot Studios** provides a deterministic, B2B-grade ingestion pipeline. By combining spatial computer vision with formal logic verification, we convert dense campaign PDFs directly into 100% verified, deployable **Foundry VTT** and **Roll20** JSON payloads.
+**GM-Copilot Studios** provides a deterministic, B2B-grade ingestion pipeline. By combining spatial computer vision with formal logic verification, we convert dense campaign PDFs directly into 100% verified, ready-to-play **Foundry VTT** and **Roll20** module packages.
 
 ---
 
 ## ⚔️ The B2B Ingestion Architecture: Three Core Pillars
 
-1. **Spatial Layout Isolation (OpenCV):** Maps document bounding boxes, multi-column flows, sidebars, and grid topologies before text extraction occurs, preventing text-wrapping bugs.
+1. **Spatial Layout Isolation (OpenCV):** Maps document bounding boxes, multi-column flows, sidebars, and grid topologies before text extraction occurs, eliminating text-wrap and layout distortion.
 2. **Formal Logic Verification (Pydantic & Lean 4):** Enforces strict mathematical invariants on stat blocks, action economies, and spell matrices. The pipeline traps errors before delivery—guaranteeing **zero hallucinations**.
 3. **Stateless FinOps Security:** Built natively on Azure App Service with Upstash Redis zero-cost caching. All customer uploads route strictly through temporary in-memory processing and are immediately purged. **Zero IP retention.**
 
 ---
 
-## 🚀 Enterprise Onboarding & Audit Tiers
+## 🚀 Volume Conversion & Pilot Tiers
 
-We eliminate the friction of onboarding your backlist or upcoming crowdfunding campaign:
+We eliminate the friction of digitizing your backlist or upcoming crowdfunding campaign:
 
-- **Indie Publishers:** Book a [$99 5-Page PDF Structural Audit](https://cmccombs01.github.io/GM-Copilot-Studios.github.io/) to get a sample Foundry/Roll20 JSON export and layout vulnerability report.
-- **Mid-Sized Studios:** Subscribe to the **Publisher Pass ($299/mo)** for ongoing monthly conversion volume (up to 250 pages) with priority ingestion queuing.
-- **Enterprise Partners:** Access our **Enterprise Studio Tier ($999/mo)** for custom Lean 4 verification rules, direct Azure VNet deployment, and full catalog digitization.
+- **Starter Adventure ($49):** Quick one-shots, monster rosters, and demo adventures up to 15 pages with 24-hour turnaround.
+- **Indie Zine Pack ($79):** Complete stat block & item verification for modules and zines up to 30 pages.
+- **Core Rulebook ($229):** Full layout, table extraction, and automated action economies for rulebooks up to 150 pages.
+- **Campaign Studio ($499):** Priority queue, multi-book stretch goal bundling, and complete `.zip` module packaging for up to 400 pages.
+- **Enterprise Vault ($999):** Full catalog backlist ingestion up to 1,000 pages with custom schema integration and a formal verification SLA.
+
+*Try the free sample:* Book a [Free 1-Page Audit](https://cmccombs01.github.io/GM-Copilot-Studios.github.io/) to test spatial layout healing and verify sample Foundry JSON.
 
 ---
 
@@ -40,13 +44,13 @@ We eliminate the friction of onboarding your backlist or upcoming crowdfunding c
 - **The Logic Gate:** Pydantic Schemas + Lean 4 Formal Verification
 - **The Compute Shield:** Azure App Service + Azure AI Foundry DeepSeek Routing
 - **The Cache & Vault:** Upstash Redis Zero-Cost FinOps Cache + Qdrant Vector Engine
-- **The Payload:** Verified Foundry VTT & Roll20 Native JSON Exports
+- **The Payload:** Verified Foundry VTT (.zip) & Roll20 Native JSON Exports
 
 ---
 
 ## 📂 Repository & Pipeline Architecture Note
 
-*This repository contains the stateless core engine and API interface for GM-Copilot Studios B2B ingestion modules. Production pipelines execute inside secured, air-gapped Azure Virtual Networks.*
+*This repository contains the stateless core engine and API interface for GM-Copilot Studios B2B ingestion modules. Production pipelines execute inside secured, isolated Azure Virtual Networks.*
 
 ---
 
@@ -55,10 +59,10 @@ We eliminate the friction of onboarding your backlist or upcoming crowdfunding c
 GM-Copilot Studios operates under a strict **Zero-Trust, Zero-Storage** framework:
 
 ### Zero Intellectual Property Retention
-All raw customer PDF uploads and intermediate text extractions are processed purely in-memory. Once payload delivery is finalized, all temporary buffer assets are purged under strict FinOps protocols.
+All customer PDF uploads and intermediate extractions are processed purely in-memory. Once payload delivery is finalized, all temporary buffer assets are purged under strict FinOps protocols.
 
 ### Deterministic Accuracy over Probabilistic AI
-Standard generative AI models guess missing text. Our pipeline relies on **Deterministic Verification**—validating data solely against formal mathematical rules and explicit rulebook invariants.
+Standard generative AI models hallucinate missing stats. Our pipeline relies on **Deterministic Verification**—validating data solely against formal mathematical rules and explicit rulebook invariants.
 
 ---
 
